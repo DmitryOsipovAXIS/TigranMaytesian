@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #000;
+    color: white;
+    font-family: 'Marcellus', serif;
+  }
+  
+  header {
+    padding: 20px 60px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column; /* добавь это */
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+  }
+  
+  .intro {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    align-items: flex-start;
+  }
+  
+  .text-block {
+    max-width: 500px;
+    padding-right: 40px;
+  }
+  
+  .text-block h1 {
+    font-size: 64px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+  }
+  
+  .first-name,
+  .last-name {
+    font-size: 21vh; /* Или больше, например 72px */
+  }
+ 
+  .main-description {
+    font-size: 5vh;
+  }
+  
+  .text-block p {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
+  .text-block {
+    max-width: 500px;
+    padding-right: 40px;
+    position: relative; /* чтобы z-index сработал */
+    z-index: 2; /* выше изображения */
+  }
+  
+  .image-block img {
+    max-width: 450px;
+    height: auto;
+    z-index: 1;
+    position: relative; /* обязательно для z-index */
+  }
+  
+  .timeline {
+    padding: 60px;
+    text-align: center;
+  }
+  
+  .timeline h2 {
+    font-size: 32px;
+    margin-bottom: 60px;
+  }
+  
+  .timeline-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 40px;
+  }
+  
+  .timeline-container::before {
+    content: '';
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: white;
+    z-index: 0;
+  }
+  
+  .timeline-item {
+    position: relative;
+    width: 160px;
+    text-align: center;
+  }
+  
+  .timeline-item .square {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: relative;
+    margin: 0 auto;
+    z-index: 2;
+  }
+  
+  .timeline-item .year {
+    margin-top: 10px;
+    font-size: 20px;
+    /* font-weight: bold; */
+  }
+  
+  .timeline-item .desc {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  
