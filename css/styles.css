@@ -193,4 +193,109 @@
   line-height: 1.6;
 }
 
+.academic-section {
+  background-color: black;
+  color: white;
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+
+.academic-section h2 {
+  font-family: serif;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.academic-columns {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  text-align: left;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.academic-block {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+}
+
+.p3 {
+  
+  margin-bottom: 0.5rem;
+  font-size: 12vh;
+  
+}
+
+.academic-line {
+  height: 2px;
+  background-color: white;
+  margin-bottom: 1.5rem;
+}
+
+.academic-block p {
+  margin-bottom: 1.25rem;
+  line-height: 1.6;
+  font-size: 3vh;
+}
+
+.artistic-section {
+  background-color: black;
+  color: white;
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+
+.artistic-section h2 {
+  font-family: serif;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+}
+
+.artistic-image-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 3vh;
+}
+
+.artistic-image {
+  max-width: 60%;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+  
+}
+
+.festival-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.festival-box {
+  border: 1px solid white;
+  padding: 1rem;
+  min-width: 200px;
+  max-width: 250px;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.artistic-description {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1rem;
+  
+  line-height: 1.7;
+}
+
+
+
   
