@@ -115,6 +115,10 @@
     width: 160px;
     text-align: center;
   }
+
+  .title {
+    font-size: 5vh;
+  }
   
   .timeline-item .square {
     width: 20px;
@@ -136,4 +140,57 @@
     font-size: 14px;
     line-height: 1.4;
   }
+
+  /* Основной стиль секции */
+.solist-section {
+  background-color: black;
+  color: white;
+  padding: 4rem 1.5rem;
+}
+
+/* Контейнер: картинка + текст в линию */
+.solist-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Левая часть — изображение */
+.solist-image img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
+}
+
+/* Правая часть — текст */
+.solist-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.solist-text h2 {
+  font-family: serif;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.solist-text h3 {
+  font-size: 1.25rem;
+  font-size: 4vh;
+  margin-top: 1rem;
+}
+
+.solist-text p {
+  margin-top: 0.25rem;
+  font-size: 4vh;
+  line-height: 1.6;
+}
+
   
