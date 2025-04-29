@@ -508,11 +508,32 @@
 }
 
 footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: black;
+  color: white;
   text-align: center;
-  padding: 20px;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social_media {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.social_media img {
+  width: 40px; /* Размер иконок */
+  height: 40px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.social_media img:hover {
+  transform: scale(1.1); /* Небольшая анимация при наведении */
 }
 
 .partners {
