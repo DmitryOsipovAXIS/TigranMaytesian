@@ -307,5 +307,25 @@
       observer.observe(section);
     });
   </script>
+  <div class="floating-video" id="floatingVideo">
+  <button type="button" class="close-video-button" aria-label="Close video" onclick="document.getElementById('floatingVideo').style.display='none'">
+    &times;
+  </button>
+
+  <iframe
+    src="https://www.youtube.com/embed/l2RFNNtHzFQ?autoplay=1&mute=1&controls=0&loop=1&playlist=l2RFNNtHzFQ&modestbranding=1&rel=0"
+    allow="autoplay; encrypted-media"
+    allowfullscreen
+    title="Tigran Maytesian Video"
+    >
+  </iframe>
+
+  <a href="https://www.youtube.com/watch?v=l2RFNNtHzFQ"
+     target="_blank"
+     class="video-overlay-link"
+     aria-label="Watch this video on YouTube">
+    <span class="visually-hidden">Watch this video on YouTube</span>
+  </a>
+</div>
 </body>
 </html>
